@@ -36,8 +36,6 @@ public class Questions extends TestBase_AfterBefore{
 
             driver.get("http://automationexercise.com");
 
-            //3. Verify that home page is visible successfully
-
 
 
             //4. Click on 'Signup / Login' button
