@@ -8,7 +8,7 @@ import utilities.TestBase_AfterBefore;
 
 import java.util.List;
 
-public class C02_İFramSoru extends TestBase_AfterBefore {
+public class C02_İFramQuestions extends TestBase_AfterBefore {
 
     @Test
     public void ElektronicProducts(){

@@ -1,6 +1,5 @@
 package SORULAR;
 
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -9,7 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 import utilities.ReusableMethods;
 import utilities.TestBase_AfterBefore;
 
-public class SağClick extends TestBase_AfterBefore {
+public class RightClick extends TestBase_AfterBefore {
 
     @Test
     public void test01(){

@@ -11,7 +11,7 @@ import utilities.ReusableMethods;
 
 import java.time.Duration;
 
-public class ExcliptSoru {
+public class ExcliptQuestions {
 
     @Test
     public void test01(){

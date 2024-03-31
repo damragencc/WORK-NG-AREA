@@ -1,6 +1,5 @@
 package SORULAR;
 
-import org.bouncycastle.pqc.crypto.crystals.kyber.KyberKEMExtractor;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -10,7 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 import utilities.ReusableMethods;
 import utilities.TestBase_AfterBefore;
 
-public class Soruu24 extends TestBase_AfterBefore {
+public class Questions24 extends TestBase_AfterBefore {
 
     @Test
     public void test01(){
@@ -64,7 +63,7 @@ public class Soruu24 extends TestBase_AfterBefore {
         WebElement Kayıtol= driver.findElement(By.xpath("//*[@placeholder='Name']"));
         Kayıtol.sendKeys("Damraa");
         WebElement email= driver.findElement(By.xpath("(//*[@placeholder='Email Address'])[2]"));
-        email.sendKeys("damrangec3222220082@gmail.com");
+        email.sendKeys("damrangec99322@gmail.com");
 
         driver.findElement(By.xpath("//*[text()='Signup']")).click();
 
@@ -119,7 +118,7 @@ public class Soruu24 extends TestBase_AfterBefore {
 
         WebElement order=   driver.findElement(By.xpath("//*[text()='Place Order']"));
 
-        actions.click(order).sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).perform();
+        actions.click(order).sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).perform();
         ReusableMethods.bekle(1);
 
         order.click();

@@ -9,7 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 import utilities.ReusableMethods;
 import utilities.TestBase_AfterBefore;
 
-public class ActionSoru extends TestBase_AfterBefore {
+public class ActionQuestions extends TestBase_AfterBefore {
 
     @Test
     public void test01(){

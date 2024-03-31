@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import utilities.TestBase_AfterBefore;
 
-public class SOruu23 extends TestBase_AfterBefore {
+public class Questions23 extends TestBase_AfterBefore {
 
     @Test
     public void test01(){
